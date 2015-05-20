@@ -20,6 +20,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27a-common/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/msm7x27a-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/lge/msm7x27a-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so  \
+    vendor/lge/msm7x27a-common/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
